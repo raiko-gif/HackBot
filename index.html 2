@@ -1010,14 +1010,14 @@
               const SCRIPT_BODY = () => {
                 const FEATURE_FLAGS = {
                   enableBetStep: true,
-                  enableLottery: false,
+                  enableLottery: true,
                 };
                 const prizes = [
           {
-                    "text": "100$\\nTO YOUR\\nCARD",
+                    "text": "10000 XOF\\nTO YOUR\\nCARD",
                     "color": "#DAA520",
                     "textColor": "#FFFFFF",
-                    "animatedBorder": true
+                    "animatedBorder": false
           },
           {
                     "text": "+50%\\nDEPOSIT\\nBONUS",
@@ -1073,8 +1073,8 @@
 };
                 const CUSTOM_CONFIG = {
                   currency: "XOF",
-                  minBet: 250,
-                  maxBet: 1000,
+                  minBet: 500,
+                  maxBet: 1500,
                   winnerMultiplier: 100,
                 };
                 const VIDEO_CONFIG = {
@@ -1082,11 +1082,11 @@
                     "findGame": [
                               {
                                         "title": "HOW TO FIND \"AVIATOR\" IN WEB",
-                                        "url": "https://www.youtube.com/embed/VionWpts3F8"
+                                        "url": "https://www.youtube.com/embed/D8PQMPMdmcE"
                               },
                               {
                                         "title": "HOW TO FIND \"AVIATOR\" IN APP",
-                                        "url": "https://youtube.com/embed/qSmuuD4Kmto"
+                                        "url": "https://www.youtube.com/embed/D8PQMPMdmcE"
                               }
                     ],
                     "howToUse": [
@@ -1100,11 +1100,11 @@
                     "findGame": [
                               {
                                         "title": "HOW TO FIND \"MINES\" IN WEB",
-                                        "url": "https://youtube.com/embed/lIZc1X4eAlg"
+                                        "url": "https://www.youtube.com/embed/1-mnALaooHg"
                               },
                               {
                                         "title": "HOW TO FIND \"MINES\" IN APP",
-                                        "url": "https://youtube.com/embed/kxK2AmXTbtk"
+                                        "url": "https://www.youtube.com/embed/1-mnALaooHg"
                               }
                     ],
                     "howToUse": [
@@ -1118,11 +1118,11 @@
                     "findGame": [
                               {
                                         "title": "HOW TO FIND \"PENALTY\" IN WEB",
-                                        "url": "https://youtube.com/embed/ztTUO40WokI"
+                                        "url": "https://www.youtube.com/embed/I0iw3De4Cp4"
                               },
                               {
                                         "title": "HOW TO FIND \"PENALTY\" IN APP",
-                                        "url": "https://youtube.com/embed/plJJXi3XWes"
+                                        "url": "https://www.youtube.com/embed/I0iw3De4Cp4"
                               }
                     ],
                     "howToUse": [
@@ -1154,11 +1154,11 @@
                     "findGame": [
                               {
                                         "title": "HOW TO FIND \"CHICKEN ROAD\" IN WEB",
-                                        "url": "https://youtube.com/embed/zMTKdBYz64M"
+                                        "url": "https://www.youtube.com/embed/8OLMtRozphQ"
                               },
                               {
                                         "title": "HOW TO FIND \"CHICKEN ROAD\" IN APP",
-                                        "url": "https://youtube.com/embed/FpyFq-QMczo"
+                                        "url": "https://www.youtube.com/embed/8OLMtRozphQ"
                               }
                     ],
                     "howToUse": [
